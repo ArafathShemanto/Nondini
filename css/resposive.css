@@ -1,0 +1,112 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-content p {
+        padding: 0 192px;
+    }
+}
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-content p {
+        padding: 0 140px;
+    }
+    a.cbtn {
+        background: #ff0000 none repeat scroll 0 0;
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+    .slider-content h2 {
+        font-size: 45px;
+    }
+    .slider-content p {
+        padding: 0 20px;
+    }
+    .single-counter h4 {
+        font-size: 18px;
+    }
+    .single-counter span {
+        font-size: 26px;
+    }
+    .header-area.sticky {
+        background:none;
+        position: fixed;
+      }
+      .header-area.sticky::before{
+        background: #393838 none repeat scroll 0 0;
+        opacity: .7;
+    }
+}
+
+/* Extra small Device. */
+
+@media (max-width: 767px) {
+    .logo-img img {
+        width: 120px;
+    }
+    .slider-content h2 {
+        font-size: 22px;
+    }
+    .slider-content p {
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    .slider-content {
+        top: 55%;
+        transform: translateY(-45%);
+    }
+    a.cbtn {
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+    .about-img>img {
+        width: 100%;
+    }
+    .inner-about {
+        margin: 15px 0;
+    }
+    .about-img {
+        margin-bottom: 30px;
+    }
+    .portfolio-menu button {
+        font-size: 12px;
+    }
+    .contact-form input {
+        width: 100%;
+    }
+    .contact-form form input:nth-child(2) {
+        margin-left: 0;
+    }
+    .contact-form form input {
+        box-shadow: none;
+    }
+    .footer-link {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .copy-right>p {
+        text-align: center;
+    }
+    .header-area.sticky {
+        background:none;
+        position: fixed;
+      }
+      .header-area.sticky::before{
+        background: #393838 none repeat scroll 0 0;
+        opacity: .5;
+    }
+
+
+}
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
